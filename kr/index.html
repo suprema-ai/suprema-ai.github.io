@@ -5,7 +5,7 @@
 	<meta name="generator" content="Hugo 0.91.2" />
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>My blog (KR)</title>
+  <title>Suprema AI (KR)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
 <meta name="description" content="Suprema AI...." />
@@ -22,7 +22,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.4c9dbac778c1c382117152710ccdbdc5ff9cf8fae515779398dda1d4c47840bb.css">
+  <link rel="stylesheet" href="/css/style.min.fb886061b8209cebb1335216c1f8f557345a5d4db46e7ed4aa8a6052c292c669.css">
   
 
   
@@ -34,45 +34,45 @@
   <ul>
     
     
-    <li class="menu-item-home">
-      <a href="https://suprema-ai.github.io/kr/">
+    <li class="menu-item-홈으로">
+      <a href="/kr/">
         
-        <span>Home</span>
+        <span>홈으로</span>
       </a>
     </li>
     
-    <li class="menu-item-about us">
-      <a href="https://suprema-ai.github.io/kr/about/">
+    <li class="menu-item-소개">
+      <a href="/kr/about/">
         
-        <span>About us</span>
+        <span>소개</span>
       </a>
     </li>
     
-    <li class="menu-item-news">
-      <a href="https://suprema-ai.github.io/kr/news/">
+    <li class="menu-item-뉴스">
+      <a href="/kr/news/">
         
-        <span>News</span>
+        <span>뉴스</span>
       </a>
     </li>
     
-    <li class="menu-item-solutions">
-      <a href="https://suprema-ai.github.io/kr/solutions/">
+    <li class="menu-item-솔루션">
+      <a href="/kr/solutions/">
         
-        <span>Solutions</span>
+        <span>솔루션</span>
       </a>
     </li>
     
-    <li class="menu-item-work">
-      <a href="https://suprema-ai.github.io/kr/work/">
+    <li class="menu-item-작업">
+      <a href="/kr/work/">
         
-        <span>Work</span>
+        <span>작업</span>
       </a>
     </li>
     
-    <li class="menu-item-contact us">
-      <a href="https://suprema-ai.github.io/kr/contact/">
+    <li class="menu-item-연락처">
+      <a href="/kr/contact/">
         
-        <span>Contact Us</span>
+        <span>연락처</span>
       </a>
     </li>
     
@@ -92,58 +92,100 @@
         
     
     
-    <li class="menu-item-home active">      
-        <a href="https://suprema-ai.github.io/kr/">      
+    <li class="menu-item-홈으로 active">      
+        <a href="/kr/">      
         
-        <span>Home</span>
+        <span>홈으로</span>
       </a>
     </li>
     
-    <li class="menu-item-about us">      
-        <a href="https://suprema-ai.github.io/kr/about/">      
+    <li class="menu-item-소개">      
+        <a href="/kr/about/">      
         
-        <span>About us</span>
+        <span>소개</span>
       </a>
     </li>
     
-    <li class="menu-item-news">      
-        <a href="https://suprema-ai.github.io/kr/news/">      
+    <li class="menu-item-뉴스">      
+        <a href="/kr/news/">      
         
-        <span>News</span>
+        <span>뉴스</span>
       </a>
     </li>
     
-    <li class="menu-item-solutions">      
-        <a href="https://suprema-ai.github.io/kr/solutions/">      
+    <li class="menu-item-솔루션">      
+        <a href="/kr/solutions/">      
         
-        <span>Solutions</span>
+        <span>솔루션</span>
       </a>
     </li>
     
-    <li class="menu-item-work">      
-        <a href="https://suprema-ai.github.io/kr/work/">      
+    <li class="menu-item-작업">      
+        <a href="/kr/work/">      
         
-        <span>Work</span>
+        <span>작업</span>
       </a>
     </li>
     
-    <li class="menu-item-contact us">      
-        <a href="https://suprema-ai.github.io/kr/contact/">      
+    <li class="menu-item-연락처">      
+        <a href="/kr/contact/">      
         
-        <span>Contact Us</span>
+        <span>연락처</span>
       </a>
     </li>
     
   </ul>  
 </div>
-    <div>
+    <script>
+  function getTargetPath(language){
+    let path;
+    if(language == "en")
+      if(window.location.pathname.match(/([^\/]*)\/*$/)[1] != 'kr')
+        path = window.location.origin + '/' + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';
+      else
+        path = window.location.origin + '/';
+    else
+    {
+      if(window.location.pathname.match(/([^\/]*)\/*$/)[1] != 'kr')
+        path = window.location.origin + "/kr/" + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';  
+      else
+        path = window.location.origin + '/' + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';
+    }
+      
+    
+    window.location.replace(path);
+  }  
+
+  function getTargetPath2(language){
+    let path;
+    if(language == 'en')
+    {
+      if(window.location.pathname.substring(0,4) == '/kr/')
+        path = window.location.origin + window.location.pathname.slice(3);
+      else
+        path = window.location.origin +  window.location.pathname;
+
+    }
+    else
+    {
+      if(window.location.pathname.substring(0,4) == '/kr/')
+        path = window.location.origin + window.location.pathname;
+      else
+        path = window.location.origin + '/kr/' + window.location.pathname;
+    }
+    window.location.replace(path);
+
+  }
+</script>
+
+<div>
   <ul>
     <li class="lanuage">
-      <a href="/kr/">        
+      <a href="#" onclick="getTargetPath2('kr')">        
         <span>KR</span>
       </a>
       |
-      <a href="../">        
+      <a href="#" onclick="getTargetPath2('en')">        
         <span>EN</span>
       </a>
     </li>      
@@ -165,7 +207,7 @@
     <div class="hero-text">
       <span class="hero-section"></span>
       <h1>Suprema AI</h1>
-      <p>한국어 페이지</p>
+      <p>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다. </p>
     </div>
     <div class="hero-down">
       <a href="#home">
@@ -190,7 +232,9 @@
     <div class="row">
       <div class="col-12 col-md-6 offset-md-6">
         <h2 class="text-primary text-capitalize">We Help Business Grow</h2>
-        <p><p>세계 50대 보안제조사 랭킹에 등재된 바이오인식-보안 전문 기업입니다. 슈프리마는 세계 최고의 바이오인식 기술과 프리미엄 시장에서의 브랜드 경쟁력, 글로벌 네트워크를 바탕으로 바이오인식 및 보안산업의 글로벌 리더로서 활약하고 있습니다.</p>
+        <p><p>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</p>
+<p>아침이 위에도 마디씩 쓸쓸함과 피어나듯이 했던 봅니다. 쓸쓸함과 가을로 겨울이 계십니다. 토끼, 부끄러운 멀듯이, 지나고 덮어 어머니, 하나 거외다. 별에도 별빛이 추억과 쓸쓸함과 버리었습니다. 오는 이국 동경과 프랑시스 당신은 덮어 계십니다. 무엇인지 이네들은 나는 어머니 옥 계절이 봅니다. 내린 나는 가을 토끼, 새겨지는 벌레는 많은 써 듯합니다. 강아지, 하나에 어머님, 가을 그리워 노새, 하나에 이름과 위에도 거외다. 같이 토끼, 노새, 위에도 별 까닭입니다. 시와 불러 이름과 아무 멀리 이름과, 거외다.</p>
+<p>내린 노새, 토끼, 별 별에도 그리고 덮어 하늘에는 봅니다. 노새, 가득 헤일 같이 북간도에 못 보고, 시와 듯합니다. 마디씩 없이 오는 그리고 이름과, 강아지, 하늘에는 계집애들의 파란 계십니다. 멀리 나의 이름과 라이너 아무 별빛이 버리었습니다. 내 옥 토끼, 버리었습니다. 이름과 위에도 하나에 내 까닭입니다. 어머니, 토끼, 내일 불러 부끄러운 새겨지는 소학교 많은 까닭입니다. 북간도에 하나에 밤이 가득 부끄러운 이네들은 있습니다. 별 이름과 것은 가득 이제 이웃 까닭입니다.</p>
 </p>
         <a class="button" href="/work">Our Work</a>
       </div>
@@ -211,10 +255,10 @@
       <div class="service service-summary">
   <div class="service-content">
     <h2 class="service-title">
-      <a href="https://suprema-ai.github.io/kr/solutions/contents1/">Contents1</a>
+      <a href="https://suprema-ai.github.io/kr/solutions/contents1/">Solution Contents 1</a>
     </h2>
-    <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum...</p>
+    <h1 id="heading-1">Heading 1</h1>
+<p>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다....</p>
   </div>
 </div>
     </div>
@@ -223,10 +267,9 @@ de obside ut laniavit arbor palmis, cum...</p>
       <div class="service service-summary">
   <div class="service-content">
     <h2 class="service-title">
-      <a href="https://suprema-ai.github.io/kr/solutions/contents2/">Contents2</a>
+      <a href="https://suprema-ai.github.io/kr/solutions/contents2/">Solution Contents 2</a>
     </h2>
-    <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum...</p>
+    <p>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 ...</p>
   </div>
 </div>
     </div>
@@ -235,10 +278,9 @@ de obside ut laniavit arbor palmis, cum...</p>
       <div class="service service-summary">
   <div class="service-content">
     <h2 class="service-title">
-      <a href="https://suprema-ai.github.io/kr/solutions/contents3/">Contents3</a>
+      <a href="https://suprema-ai.github.io/kr/solutions/contents3/">Solution Contents 3</a>
     </h2>
-    <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum...</p>
+    <p>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 ...</p>
   </div>
 </div>
     </div>
@@ -256,7 +298,9 @@ de obside ut laniavit arbor palmis, cum...</p>
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
         <h2>Our Difference</h2>
-        <p>한국어페이지</p>
+        <p>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</p>
+<p>아침이 위에도 마디씩 쓸쓸함과 피어나듯이 했던 봅니다. 쓸쓸함과 가을로 겨울이 계십니다. 토끼, 부끄러운 멀듯이, 지나고 덮어 어머니, 하나 거외다. 별에도 별빛이 추억과 쓸쓸함과 버리었습니다. 오는 이국 동경과 프랑시스 당신은 덮어 계십니다. 무엇인지 이네들은 나는 어머니 옥 계절이 봅니다. 내린 나는 가을 토끼, 새겨지는 벌레는 많은 써 듯합니다. 강아지, 하나에 어머님, 가을 그리워 노새, 하나에 이름과 위에도 거외다. 같이 토끼, 노새, 위에도 별 까닭입니다. 시와 불러 이름과 아무 멀리 이름과, 거외다.</p>
+<p>내린 노새, 토끼, 별 별에도 그리고 덮어 하늘에는 봅니다. 노새, 가득 헤일 같이 북간도에 못 보고, 시와 듯합니다. 마디씩 없이 오는 그리고 이름과, 강아지, 하늘에는 계집애들의 파란 계십니다. 멀리 나의 이름과 라이너 아무 별빛이 버리었습니다. 내 옥 토끼, 버리었습니다. 이름과 위에도 하나에 내 까닭입니다. 어머니, 토끼, 내일 불러 부끄러운 새겨지는 소학교 많은 까닭입니다. 북간도에 하나에 밤이 가득 부끄러운 이네들은 있습니다. 별 이름과 것은 가득 이제 이웃 까닭입니다.</p>
 
         <a class="button button-white" href="/about">About Us</a>
       </div>
@@ -269,7 +313,9 @@ de obside ut laniavit arbor palmis, cum...</p>
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
         <h2>We Help Business Grow</h2>
-        <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.</p>
+        <p>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</p>
+<p>아침이 위에도 마디씩 쓸쓸함과 피어나듯이 했던 봅니다. 쓸쓸함과 가을로 겨울이 계십니다. 토끼, 부끄러운 멀듯이, 지나고 덮어 어머니, 하나 거외다. 별에도 별빛이 추억과 쓸쓸함과 버리었습니다. 오는 이국 동경과 프랑시스 당신은 덮어 계십니다. 무엇인지 이네들은 나는 어머니 옥 계절이 봅니다. 내린 나는 가을 토끼, 새겨지는 벌레는 많은 써 듯합니다. 강아지, 하나에 어머님, 가을 그리워 노새, 하나에 이름과 위에도 거외다. 같이 토끼, 노새, 위에도 별 까닭입니다. 시와 불러 이름과 아무 멀리 이름과, 거외다.</p>
+<p>내린 노새, 토끼, 별 별에도 그리고 덮어 하늘에는 봅니다. 노새, 가득 헤일 같이 북간도에 못 보고, 시와 듯합니다. 마디씩 없이 오는 그리고 이름과, 강아지, 하늘에는 계집애들의 파란 계십니다. 멀리 나의 이름과 라이너 아무 별빛이 버리었습니다. 내 옥 토끼, 버리었습니다. 이름과 위에도 하나에 내 까닭입니다. 어머니, 토끼, 내일 불러 부끄러운 새겨지는 소학교 많은 까닭입니다. 북간도에 하나에 밤이 가득 부끄러운 이네들은 있습니다. 별 이름과 것은 가득 이제 이웃 까닭입니다.</p>
 
         <a class="button button-white" href="/work">work2</a>
       </div>
@@ -282,7 +328,9 @@ de obside ut laniavit arbor palmis, cum...</p>
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
         <h2>We Help Business Grow</h2>
-        <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.</p>
+        <p>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</p>
+<p>아침이 위에도 마디씩 쓸쓸함과 피어나듯이 했던 봅니다. 쓸쓸함과 가을로 겨울이 계십니다. 토끼, 부끄러운 멀듯이, 지나고 덮어 어머니, 하나 거외다. 별에도 별빛이 추억과 쓸쓸함과 버리었습니다. 오는 이국 동경과 프랑시스 당신은 덮어 계십니다. 무엇인지 이네들은 나는 어머니 옥 계절이 봅니다. 내린 나는 가을 토끼, 새겨지는 벌레는 많은 써 듯합니다. 강아지, 하나에 어머님, 가을 그리워 노새, 하나에 이름과 위에도 거외다. 같이 토끼, 노새, 위에도 별 까닭입니다. 시와 불러 이름과 아무 멀리 이름과, 거외다.</p>
+<p>내린 노새, 토끼, 별 별에도 그리고 덮어 하늘에는 봅니다. 노새, 가득 헤일 같이 북간도에 못 보고, 시와 듯합니다. 마디씩 없이 오는 그리고 이름과, 강아지, 하늘에는 계집애들의 파란 계십니다. 멀리 나의 이름과 라이너 아무 별빛이 버리었습니다. 내 옥 토끼, 버리었습니다. 이름과 위에도 하나에 내 까닭입니다. 어머니, 토끼, 내일 불러 부끄러운 새겨지는 소학교 많은 까닭입니다. 북간도에 하나에 밤이 가득 부끄러운 이네들은 있습니다. 별 이름과 것은 가득 이제 이웃 까닭입니다.</p>
 
         <a class="button button-white" href="/work">work3</a>
       </div>
@@ -307,9 +355,11 @@ de obside ut laniavit arbor palmis, cum...</p>
           </ul>
           
           <ul class="footer-menu">
-            <li><a href="/kr">Home</a></li>
-            <li><a href="/krcontact">Contact</a></li>
-            <li><a href="/krprivacy">Privacy Policy</a></li>
+            
+            <li><a href="https://suprema-ai.github.io//">Home</a></li>
+            <li><a href="https://suprema-ai.github.io//kr/contact">연락처</a></li>
+            <li><a href="https://suprema-ai.github.io//kr/privacy">개인정보 정책</a></li>
+            
             
           </ul>
         </div>

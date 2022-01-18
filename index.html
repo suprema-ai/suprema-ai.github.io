@@ -5,7 +5,7 @@
 	<meta name="generator" content="Hugo 0.91.2" />
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>My blog</title>
+  <title>Suprema AI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
 <meta name="description" content="Suprema AI...." />
@@ -22,7 +22,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.4c9dbac778c1c382117152710ccdbdc5ff9cf8fae515779398dda1d4c47840bb.css">
+  <link rel="stylesheet" href="/css/style.min.fb886061b8209cebb1335216c1f8f557345a5d4db46e7ed4aa8a6052c292c669.css">
   
 
   
@@ -35,42 +35,42 @@
     
     
     <li class="menu-item-home">
-      <a href="https://suprema-ai.github.io/">
+      <a href="/">
         
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about us">
-      <a href="https://suprema-ai.github.io/about/">
+      <a href="/about/">
         
         <span>About us</span>
       </a>
     </li>
     
     <li class="menu-item-news">
-      <a href="https://suprema-ai.github.io/news/">
+      <a href="/news/">
         
         <span>News</span>
       </a>
     </li>
     
     <li class="menu-item-solutions">
-      <a href="https://suprema-ai.github.io/solutions/">
+      <a href="/solutions/">
         
         <span>Solutions</span>
       </a>
     </li>
     
     <li class="menu-item-work">
-      <a href="https://suprema-ai.github.io/work/">
+      <a href="/work/">
         
         <span>Work</span>
       </a>
     </li>
     
     <li class="menu-item-contact us">
-      <a href="https://suprema-ai.github.io/contact/">
+      <a href="/contact/">
         
         <span>Contact Us</span>
       </a>
@@ -93,42 +93,42 @@
     
     
     <li class="menu-item-home active">      
-        <a href="https://suprema-ai.github.io/">      
+        <a href="/">      
         
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about us">      
-        <a href="https://suprema-ai.github.io/about/">      
+        <a href="/about/">      
         
         <span>About us</span>
       </a>
     </li>
     
     <li class="menu-item-news">      
-        <a href="https://suprema-ai.github.io/news/">      
+        <a href="/news/">      
         
         <span>News</span>
       </a>
     </li>
     
     <li class="menu-item-solutions">      
-        <a href="https://suprema-ai.github.io/solutions/">      
+        <a href="/solutions/">      
         
         <span>Solutions</span>
       </a>
     </li>
     
     <li class="menu-item-work">      
-        <a href="https://suprema-ai.github.io/work/">      
+        <a href="/work/">      
         
         <span>Work</span>
       </a>
     </li>
     
     <li class="menu-item-contact us">      
-        <a href="https://suprema-ai.github.io/contact/">      
+        <a href="/contact/">      
         
         <span>Contact Us</span>
       </a>
@@ -136,14 +136,56 @@
     
   </ul>  
 </div>
-    <div>
+    <script>
+  function getTargetPath(language){
+    let path;
+    if(language == "en")
+      if(window.location.pathname.match(/([^\/]*)\/*$/)[1] != 'kr')
+        path = window.location.origin + '/' + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';
+      else
+        path = window.location.origin + '/';
+    else
+    {
+      if(window.location.pathname.match(/([^\/]*)\/*$/)[1] != 'kr')
+        path = window.location.origin + "/kr/" + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';  
+      else
+        path = window.location.origin + '/' + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';
+    }
+      
+    
+    window.location.replace(path);
+  }  
+
+  function getTargetPath2(language){
+    let path;
+    if(language == 'en')
+    {
+      if(window.location.pathname.substring(0,4) == '/kr/')
+        path = window.location.origin + window.location.pathname.slice(3);
+      else
+        path = window.location.origin +  window.location.pathname;
+
+    }
+    else
+    {
+      if(window.location.pathname.substring(0,4) == '/kr/')
+        path = window.location.origin + window.location.pathname;
+      else
+        path = window.location.origin + '/kr/' + window.location.pathname;
+    }
+    window.location.replace(path);
+
+  }
+</script>
+
+<div>
   <ul>
     <li class="lanuage">
-      <a href="/kr/">        
+      <a href="#" onclick="getTargetPath2('kr')">        
         <span>KR</span>
       </a>
       |
-      <a href="../">        
+      <a href="#" onclick="getTargetPath2('en')">        
         <span>EN</span>
       </a>
     </li>      
@@ -165,7 +207,7 @@
     <div class="hero-text">
       <span class="hero-section"></span>
       <h1>Suprema AI</h1>
-      <p>세계 50대 보안제조사 랭킹에 등재된 바이오인식-보안 전문 기업입니다. 슈프리마는 세계 최고의 바이오인식 기술과 프리미엄 시장에서의 브랜드 경쟁력, 글로벌 네트워크를 바탕으로 바이오인식 및 보안산업의 글로벌 리더로서 활약하고 있습니다.</p>
+      <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec..</p>
     </div>
     <div class="hero-down">
       <a href="#home">
@@ -190,7 +232,26 @@
     <div class="row">
       <div class="col-12 col-md-6 offset-md-6">
         <h2 class="text-primary text-capitalize">We Help Business Grow</h2>
-        <p><p>세계 50대 보안제조사 랭킹에 등재된 바이오인식-보안 전문 기업입니다. 슈프리마는 세계 최고의 바이오인식 기술과 프리미엄 시장에서의 브랜드 경쟁력, 글로벌 네트워크를 바탕으로 바이오인식 및 보안산업의 글로벌 리더로서 활약하고 있습니다.</p>
+        <p><p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</p>
+<p>Ne verba patulosque numen vix libet
+Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?</p>
+<p>Cum det dixit Parcarum qui spemque est
+Exit ex huic
+Quod consiste agitataque claustraque vicina videt lacertis
+Loquor videt
+Ardua non igne caelesti coniugis cognovi diversorum
+Per nunc pariterque saeva vindicet
+Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</p>
+<p>Postquam tamen
+Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et licet! Inserui quamvis Clymeni.</p>
+<p>Parens est studiisque interea
+Pro istis mediis carnes iste nec imperat
+Te vocas orat nisi quantumque castra
+Gestumque crepuscula esse videntur coegit
+Ambo videtque gerat aquae ferens vagina
+Adde leviter faciam tetigisse regunt concava in
+Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas, vis, saxo recepta membra contractosque remigis vulnere vetus parte indignata supera.</p>
+<p>Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter somnus, fortius ante ille. Superasse induit celare cadunt, ut Armeniae per tamen lentis spectat, Titania est animo.</p>
 </p>
         <a class="button" href="/work">Our Work</a>
       </div>
@@ -256,7 +317,26 @@ de obside ut laniavit arbor palmis, cum...</p>
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
         <h2>Our Difference</h2>
-        <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo,</p>
+        <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</p>
+<p>Ne verba patulosque numen vix libet
+Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?</p>
+<p>Cum det dixit Parcarum qui spemque est
+Exit ex huic
+Quod consiste agitataque claustraque vicina videt lacertis
+Loquor videt
+Ardua non igne caelesti coniugis cognovi diversorum
+Per nunc pariterque saeva vindicet
+Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</p>
+<p>Postquam tamen
+Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et licet! Inserui quamvis Clymeni.</p>
+<p>Parens est studiisque interea
+Pro istis mediis carnes iste nec imperat
+Te vocas orat nisi quantumque castra
+Gestumque crepuscula esse videntur coegit
+Ambo videtque gerat aquae ferens vagina
+Adde leviter faciam tetigisse regunt concava in
+Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas, vis, saxo recepta membra contractosque remigis vulnere vetus parte indignata supera.</p>
+<p>Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter somnus, fortius ante ille. Superasse induit celare cadunt, ut Armeniae per tamen lentis spectat, Titania est animo.</p>
 
         <a class="button button-white" href="/about">About Us</a>
       </div>
@@ -269,7 +349,26 @@ de obside ut laniavit arbor palmis, cum...</p>
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
         <h2>We Help Business Grow</h2>
-        <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.</p>
+        <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</p>
+<p>Ne verba patulosque numen vix libet
+Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?</p>
+<p>Cum det dixit Parcarum qui spemque est
+Exit ex huic
+Quod consiste agitataque claustraque vicina videt lacertis
+Loquor videt
+Ardua non igne caelesti coniugis cognovi diversorum
+Per nunc pariterque saeva vindicet
+Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</p>
+<p>Postquam tamen
+Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et licet! Inserui quamvis Clymeni.</p>
+<p>Parens est studiisque interea
+Pro istis mediis carnes iste nec imperat
+Te vocas orat nisi quantumque castra
+Gestumque crepuscula esse videntur coegit
+Ambo videtque gerat aquae ferens vagina
+Adde leviter faciam tetigisse regunt concava in
+Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas, vis, saxo recepta membra contractosque remigis vulnere vetus parte indignata supera.</p>
+<p>Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter somnus, fortius ante ille. Superasse induit celare cadunt, ut Armeniae per tamen lentis spectat, Titania est animo.</p>
 
         <a class="button button-white" href="/work">work2</a>
       </div>
@@ -282,7 +381,26 @@ de obside ut laniavit arbor palmis, cum...</p>
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
         <h2>We Help Business Grow</h2>
-        <p>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.</p>
+        <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</p>
+<p>Ne verba patulosque numen vix libet
+Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?</p>
+<p>Cum det dixit Parcarum qui spemque est
+Exit ex huic
+Quod consiste agitataque claustraque vicina videt lacertis
+Loquor videt
+Ardua non igne caelesti coniugis cognovi diversorum
+Per nunc pariterque saeva vindicet
+Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</p>
+<p>Postquam tamen
+Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et licet! Inserui quamvis Clymeni.</p>
+<p>Parens est studiisque interea
+Pro istis mediis carnes iste nec imperat
+Te vocas orat nisi quantumque castra
+Gestumque crepuscula esse videntur coegit
+Ambo videtque gerat aquae ferens vagina
+Adde leviter faciam tetigisse regunt concava in
+Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas, vis, saxo recepta membra contractosque remigis vulnere vetus parte indignata supera.</p>
+<p>Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter somnus, fortius ante ille. Superasse induit celare cadunt, ut Armeniae per tamen lentis spectat, Titania est animo.</p>
 
         <a class="button button-white" href="/work">work3</a>
       </div>
@@ -307,9 +425,11 @@ de obside ut laniavit arbor palmis, cum...</p>
           </ul>
           
           <ul class="footer-menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/privacy">Privacy Policy</a></li>
+            
+            <li><a href="https://suprema-ai.github.io//">Home</a></li>
+            <li><a href="https://suprema-ai.github.io//contact">Contact</a></li>
+            <li><a href="https://suprema-ai.github.io//privacy">Privacy Policy</a></li>
+            
             
           </ul>
         </div>

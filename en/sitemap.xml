@@ -2,21 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://suprema-ai.github.io/privacy/content1/</loc>
-    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
+    <loc>https://suprema-ai.github.io/news/contents1/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="https://suprema-ai.github.io/kr/privacy/content1/"
+                href="https://suprema-ai.github.io/kr/news/contents1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://suprema-ai.github.io/privacy/content1/"
+                href="https://suprema-ai.github.io/news/contents1/"
                 />
-  </url><url>
-    <loc>https://suprema-ai.github.io/news/contents1/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
   </url><url>
     <loc>https://suprema-ai.github.io/work/contents1/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
@@ -42,19 +39,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://suprema-ai.github.io/solutions/contents1/"
-                />
-  </url><url>
-    <loc>https://suprema-ai.github.io/privacy/content2/</loc>
-    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://suprema-ai.github.io/kr/privacy/content2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://suprema-ai.github.io/privacy/content2/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/solutions/contents2/</loc>
@@ -94,19 +78,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://suprema-ai.github.io/work/contents2/"
-                />
-  </url><url>
-    <loc>https://suprema-ai.github.io/privacy/content3/</loc>
-    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://suprema-ai.github.io/kr/privacy/content3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://suprema-ai.github.io/privacy/content3/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/solutions/contents3/</loc>

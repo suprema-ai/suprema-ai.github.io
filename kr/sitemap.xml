@@ -2,22 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://suprema-ai.github.io/kr/privacy/content1/</loc>
-    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://suprema-ai.github.io/privacy/content1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://suprema-ai.github.io/kr/privacy/content1/"
-                />
-  </url><url>
-    <loc>https://suprema-ai.github.io/kr/news/contents/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
-  </url><url>
     <loc>https://suprema-ai.github.io/kr/work/contents1/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
     <xhtml:link
@@ -29,6 +13,19 @@
                 rel="alternate"
                 hreflang="kr"
                 href="https://suprema-ai.github.io/kr/work/contents1/"
+                />
+  </url><url>
+    <loc>https://suprema-ai.github.io/kr/news/contents1/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://suprema-ai.github.io/news/contents1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://suprema-ai.github.io/kr/news/contents1/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/kr/solutions/contents1/</loc>
@@ -44,19 +41,6 @@
                 href="https://suprema-ai.github.io/kr/solutions/contents1/"
                 />
   </url><url>
-    <loc>https://suprema-ai.github.io/kr/privacy/content2/</loc>
-    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://suprema-ai.github.io/privacy/content2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://suprema-ai.github.io/kr/privacy/content2/"
-                />
-  </url><url>
     <loc>https://suprema-ai.github.io/kr/solutions/contents2/</loc>
     <lastmod>2018-11-28T15:15:34+10:00</lastmod>
     <xhtml:link
@@ -68,19 +52,6 @@
                 rel="alternate"
                 hreflang="kr"
                 href="https://suprema-ai.github.io/kr/solutions/contents2/"
-                />
-  </url><url>
-    <loc>https://suprema-ai.github.io/kr/news/contents2/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://suprema-ai.github.io/news/contents2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://suprema-ai.github.io/kr/news/contents2/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/kr/work/contents2/</loc>
@@ -96,17 +67,17 @@
                 href="https://suprema-ai.github.io/kr/work/contents2/"
                 />
   </url><url>
-    <loc>https://suprema-ai.github.io/kr/privacy/content3/</loc>
-    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
+    <loc>https://suprema-ai.github.io/kr/news/contents2/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://suprema-ai.github.io/privacy/content3/"
+                href="https://suprema-ai.github.io/news/contents2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="https://suprema-ai.github.io/kr/privacy/content3/"
+                href="https://suprema-ai.github.io/kr/news/contents2/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/kr/solutions/contents3/</loc>
@@ -122,19 +93,6 @@
                 href="https://suprema-ai.github.io/kr/solutions/contents3/"
                 />
   </url><url>
-    <loc>https://suprema-ai.github.io/kr/news/contents3/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://suprema-ai.github.io/news/contents3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://suprema-ai.github.io/kr/news/contents3/"
-                />
-  </url><url>
     <loc>https://suprema-ai.github.io/kr/work/contents3/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
     <xhtml:link
@@ -146,6 +104,19 @@
                 rel="alternate"
                 hreflang="kr"
                 href="https://suprema-ai.github.io/kr/work/contents3/"
+                />
+  </url><url>
+    <loc>https://suprema-ai.github.io/kr/news/contents3/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://suprema-ai.github.io/news/contents3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://suprema-ai.github.io/kr/news/contents3/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/kr/about/</loc>

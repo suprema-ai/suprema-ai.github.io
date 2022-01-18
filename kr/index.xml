@@ -1,80 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on My blog (KR)</title>
+    <title>Home on Suprema AI (KR)</title>
     <link>https://suprema-ai.github.io/kr/</link>
-    <description>Recent content in Home on My blog (KR)</description>
+    <description>Recent content in Home on Suprema AI (KR)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr</language>
     <lastBuildDate>Mon, 12 Feb 2018 15:37:57 +0700</lastBuildDate><atom:link href="https://suprema-ai.github.io/kr/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sub Title 1</title>
-      <link>https://suprema-ai.github.io/kr/privacy/content1/</link>
-      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
-      
-      <guid>https://suprema-ai.github.io/kr/privacy/content1/</guid>
-      <description>Solution solution contents1 &amp;hellip;..</description>
-    </item>
-    
-    <item>
-      <title>Contents 1</title>
-      <link>https://suprema-ai.github.io/kr/news/contents/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>https://suprema-ai.github.io/kr/news/contents/</guid>
-      <description>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</description>
-    </item>
-    
     <item>
       <title>Contents 1</title>
       <link>https://suprema-ai.github.io/kr/work/contents1/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://suprema-ai.github.io/kr/work/contents1/</guid>
-      <description>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</description>
+      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
     </item>
     
     <item>
-      <title>Contents1</title>
+      <title>News Contents 1</title>
+      <link>https://suprema-ai.github.io/kr/news/contents1/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://suprema-ai.github.io/kr/news/contents1/</guid>
+      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
+    </item>
+    
+    <item>
+      <title>Solution Contents 1</title>
       <link>https://suprema-ai.github.io/kr/solutions/contents1/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://suprema-ai.github.io/kr/solutions/contents1/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
+      <description>Heading 1 하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
     </item>
     
     <item>
-      <title>Sub Title 2</title>
-      <link>https://suprema-ai.github.io/kr/privacy/content2/</link>
-      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
-      
-      <guid>https://suprema-ai.github.io/kr/privacy/content2/</guid>
-      <description>solution contents2 &amp;hellip;..</description>
-    </item>
-    
-    <item>
-      <title>Contents2</title>
+      <title>Solution Contents 2</title>
       <link>https://suprema-ai.github.io/kr/solutions/contents2/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
       <guid>https://suprema-ai.github.io/kr/solutions/contents2/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
-    </item>
-    
-    <item>
-      <title>Contents 2</title>
-      <link>https://suprema-ai.github.io/kr/news/contents2/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>https://suprema-ai.github.io/kr/news/contents2/</guid>
-      <description>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</description>
+      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
     </item>
     
     <item>
@@ -83,38 +49,25 @@ Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati d
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://suprema-ai.github.io/kr/work/contents2/</guid>
-      <description>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</description>
+      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
     </item>
     
     <item>
-      <title>Sub Title 3</title>
-      <link>https://suprema-ai.github.io/kr/privacy/content3/</link>
-      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      <title>News Contents 2</title>
+      <link>https://suprema-ai.github.io/kr/news/contents2/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://suprema-ai.github.io/kr/privacy/content3/</guid>
-      <description>solution contents3 &amp;hellip;..</description>
+      <guid>https://suprema-ai.github.io/kr/news/contents2/</guid>
+      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
     </item>
     
     <item>
-      <title>Contents3</title>
+      <title>Solution Contents 3</title>
       <link>https://suprema-ai.github.io/kr/solutions/contents3/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
       
       <guid>https://suprema-ai.github.io/kr/solutions/contents3/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
-    </item>
-    
-    <item>
-      <title>Contents 3</title>
-      <link>https://suprema-ai.github.io/kr/news/contents3/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>https://suprema-ai.github.io/kr/news/contents3/</guid>
-      <description>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</description>
+      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
     </item>
     
     <item>
@@ -123,8 +76,16 @@ Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati d
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://suprema-ai.github.io/kr/work/contents3/</guid>
-      <description>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</description>
+      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
+    </item>
+    
+    <item>
+      <title>News Contents 3</title>
+      <link>https://suprema-ai.github.io/kr/news/contents3/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://suprema-ai.github.io/kr/news/contents3/</guid>
+      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
     </item>
     
     <item>

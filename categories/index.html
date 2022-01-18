@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Categories - My blog</title>
+  <title>Categories - Suprema AI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="/favicon.png">
 
   
   
-  <link rel="stylesheet" href="/css/style.min.4c9dbac778c1c382117152710ccdbdc5ff9cf8fae515779398dda1d4c47840bb.css">
+  <link rel="stylesheet" href="/css/style.min.fb886061b8209cebb1335216c1f8f557345a5d4db46e7ed4aa8a6052c292c669.css">
   
 
   
@@ -24,42 +24,42 @@
     
     
     <li class="menu-item-home">
-      <a href="https://suprema-ai.github.io/">
+      <a href="/">
         
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about us">
-      <a href="https://suprema-ai.github.io/about/">
+      <a href="/about/">
         
         <span>About us</span>
       </a>
     </li>
     
     <li class="menu-item-news">
-      <a href="https://suprema-ai.github.io/news/">
+      <a href="/news/">
         
         <span>News</span>
       </a>
     </li>
     
     <li class="menu-item-solutions">
-      <a href="https://suprema-ai.github.io/solutions/">
+      <a href="/solutions/">
         
         <span>Solutions</span>
       </a>
     </li>
     
     <li class="menu-item-work">
-      <a href="https://suprema-ai.github.io/work/">
+      <a href="/work/">
         
         <span>Work</span>
       </a>
     </li>
     
     <li class="menu-item-contact us">
-      <a href="https://suprema-ai.github.io/contact/">
+      <a href="/contact/">
         
         <span>Contact Us</span>
       </a>
@@ -82,42 +82,42 @@
     
     
     <li class="menu-item-home">      
-        <a href="https://suprema-ai.github.io/">      
+        <a href="/">      
         
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-about us">      
-        <a href="https://suprema-ai.github.io/about/">      
+        <a href="/about/">      
         
         <span>About us</span>
       </a>
     </li>
     
     <li class="menu-item-news">      
-        <a href="https://suprema-ai.github.io/news/">      
+        <a href="/news/">      
         
         <span>News</span>
       </a>
     </li>
     
     <li class="menu-item-solutions">      
-        <a href="https://suprema-ai.github.io/solutions/">      
+        <a href="/solutions/">      
         
         <span>Solutions</span>
       </a>
     </li>
     
     <li class="menu-item-work">      
-        <a href="https://suprema-ai.github.io/work/">      
+        <a href="/work/">      
         
         <span>Work</span>
       </a>
     </li>
     
     <li class="menu-item-contact us">      
-        <a href="https://suprema-ai.github.io/contact/">      
+        <a href="/contact/">      
         
         <span>Contact Us</span>
       </a>
@@ -125,14 +125,56 @@
     
   </ul>  
 </div>
-    <div>
+    <script>
+  function getTargetPath(language){
+    let path;
+    if(language == "en")
+      if(window.location.pathname.match(/([^\/]*)\/*$/)[1] != 'kr')
+        path = window.location.origin + '/' + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';
+      else
+        path = window.location.origin + '/';
+    else
+    {
+      if(window.location.pathname.match(/([^\/]*)\/*$/)[1] != 'kr')
+        path = window.location.origin + "/kr/" + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';  
+      else
+        path = window.location.origin + '/' + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';
+    }
+      
+    
+    window.location.replace(path);
+  }  
+
+  function getTargetPath2(language){
+    let path;
+    if(language == 'en')
+    {
+      if(window.location.pathname.substring(0,4) == '/kr/')
+        path = window.location.origin + window.location.pathname.slice(3);
+      else
+        path = window.location.origin +  window.location.pathname;
+
+    }
+    else
+    {
+      if(window.location.pathname.substring(0,4) == '/kr/')
+        path = window.location.origin + window.location.pathname;
+      else
+        path = window.location.origin + '/kr/' + window.location.pathname;
+    }
+    window.location.replace(path);
+
+  }
+</script>
+
+<div>
   <ul>
     <li class="lanuage">
-      <a href="/kr/">        
+      <a href="#" onclick="getTargetPath2('kr')">        
         <span>KR</span>
       </a>
       |
-      <a href="../">        
+      <a href="#" onclick="getTargetPath2('en')">        
         <span>EN</span>
       </a>
     </li>      
@@ -180,9 +222,11 @@
           </ul>
           
           <ul class="footer-menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/privacy">Privacy Policy</a></li>
+            
+            <li><a href="https://suprema-ai.github.io//">Home</a></li>
+            <li><a href="https://suprema-ai.github.io//contact">Contact</a></li>
+            <li><a href="https://suprema-ai.github.io//privacy">Privacy Policy</a></li>
+            
             
           </ul>
         </div>

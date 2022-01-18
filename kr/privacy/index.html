@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Privacy Policy - My blog (KR)</title>
+  <title>Privacy Policy - Suprema AI (KR)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="/krfavicon.png">
 
   
   
-  <link rel="stylesheet" href="/css/style.min.4c9dbac778c1c382117152710ccdbdc5ff9cf8fae515779398dda1d4c47840bb.css">
+  <link rel="stylesheet" href="/css/style.min.fb886061b8209cebb1335216c1f8f557345a5d4db46e7ed4aa8a6052c292c669.css">
   
 
   
@@ -23,45 +23,45 @@
   <ul>
     
     
-    <li class="menu-item-home">
-      <a href="https://suprema-ai.github.io/kr/">
+    <li class="menu-item-홈으로">
+      <a href="/kr/">
         
-        <span>Home</span>
+        <span>홈으로</span>
       </a>
     </li>
     
-    <li class="menu-item-about us">
-      <a href="https://suprema-ai.github.io/kr/about/">
+    <li class="menu-item-소개">
+      <a href="/kr/about/">
         
-        <span>About us</span>
+        <span>소개</span>
       </a>
     </li>
     
-    <li class="menu-item-news">
-      <a href="https://suprema-ai.github.io/kr/news/">
+    <li class="menu-item-뉴스">
+      <a href="/kr/news/">
         
-        <span>News</span>
+        <span>뉴스</span>
       </a>
     </li>
     
-    <li class="menu-item-solutions">
-      <a href="https://suprema-ai.github.io/kr/solutions/">
+    <li class="menu-item-솔루션">
+      <a href="/kr/solutions/">
         
-        <span>Solutions</span>
+        <span>솔루션</span>
       </a>
     </li>
     
-    <li class="menu-item-work">
-      <a href="https://suprema-ai.github.io/kr/work/">
+    <li class="menu-item-작업">
+      <a href="/kr/work/">
         
-        <span>Work</span>
+        <span>작업</span>
       </a>
     </li>
     
-    <li class="menu-item-contact us">
-      <a href="https://suprema-ai.github.io/kr/contact/">
+    <li class="menu-item-연락처">
+      <a href="/kr/contact/">
         
-        <span>Contact Us</span>
+        <span>연락처</span>
       </a>
     </li>
     
@@ -81,58 +81,100 @@
         
     
     
-    <li class="menu-item-home">      
-        <a href="https://suprema-ai.github.io/kr/">      
+    <li class="menu-item-홈으로">      
+        <a href="/kr/">      
         
-        <span>Home</span>
+        <span>홈으로</span>
       </a>
     </li>
     
-    <li class="menu-item-about us">      
-        <a href="https://suprema-ai.github.io/kr/about/">      
+    <li class="menu-item-소개">      
+        <a href="/kr/about/">      
         
-        <span>About us</span>
+        <span>소개</span>
       </a>
     </li>
     
-    <li class="menu-item-news">      
-        <a href="https://suprema-ai.github.io/kr/news/">      
+    <li class="menu-item-뉴스">      
+        <a href="/kr/news/">      
         
-        <span>News</span>
+        <span>뉴스</span>
       </a>
     </li>
     
-    <li class="menu-item-solutions">      
-        <a href="https://suprema-ai.github.io/kr/solutions/">      
+    <li class="menu-item-솔루션">      
+        <a href="/kr/solutions/">      
         
-        <span>Solutions</span>
+        <span>솔루션</span>
       </a>
     </li>
     
-    <li class="menu-item-work">      
-        <a href="https://suprema-ai.github.io/kr/work/">      
+    <li class="menu-item-작업">      
+        <a href="/kr/work/">      
         
-        <span>Work</span>
+        <span>작업</span>
       </a>
     </li>
     
-    <li class="menu-item-contact us">      
-        <a href="https://suprema-ai.github.io/kr/contact/">      
+    <li class="menu-item-연락처">      
+        <a href="/kr/contact/">      
         
-        <span>Contact Us</span>
+        <span>연락처</span>
       </a>
     </li>
     
   </ul>  
 </div>
-    <div>
+    <script>
+  function getTargetPath(language){
+    let path;
+    if(language == "en")
+      if(window.location.pathname.match(/([^\/]*)\/*$/)[1] != 'kr')
+        path = window.location.origin + '/' + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';
+      else
+        path = window.location.origin + '/';
+    else
+    {
+      if(window.location.pathname.match(/([^\/]*)\/*$/)[1] != 'kr')
+        path = window.location.origin + "/kr/" + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';  
+      else
+        path = window.location.origin + '/' + window.location.pathname.match(/([^\/]*)\/*$/)[1] + '/';
+    }
+      
+    
+    window.location.replace(path);
+  }  
+
+  function getTargetPath2(language){
+    let path;
+    if(language == 'en')
+    {
+      if(window.location.pathname.substring(0,4) == '/kr/')
+        path = window.location.origin + window.location.pathname.slice(3);
+      else
+        path = window.location.origin +  window.location.pathname;
+
+    }
+    else
+    {
+      if(window.location.pathname.substring(0,4) == '/kr/')
+        path = window.location.origin + window.location.pathname;
+      else
+        path = window.location.origin + '/kr/' + window.location.pathname;
+    }
+    window.location.replace(path);
+
+  }
+</script>
+
+<div>
   <ul>
     <li class="lanuage">
-      <a href="/kr/">        
+      <a href="#" onclick="getTargetPath2('kr')">        
         <span>KR</span>
       </a>
       |
-      <a href="../">        
+      <a href="#" onclick="getTargetPath2('en')">        
         <span>EN</span>
       </a>
     </li>      
@@ -161,7 +203,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <div class="content"><p>세계 50대 보안제조사 랭킹에 등재된 바이오인식-보안 전문 기업입니다. 슈프리마는 세계 최고의 바이오인식 기술과 프리미엄 시장에서의 브랜드 경쟁력, 글로벌 네트워크를 바탕으로 바이오인식 및 보안산업의 글로벌 리더로서 활약하고 있습니다.</p>
+        <div class="content"><p>ADD_DURESS: Adds another fingerprint as duress one to the specified user ID. Under duress, users can authenticate with duress finger to notify the threat. When duress finger is matched, the module will return DURESS_FINGER error code and write a log. Users can also setup output signals for duress events. When enrolling, the duress finger should not match with non-duress fingerprints of the same ID. If it is the case, EXIST_FINGER error code will be returned. This option is valid only for SFM35X0.</p>
 </div>
       </div>
     </div>
@@ -183,9 +225,11 @@
           </ul>
           
           <ul class="footer-menu">
-            <li><a href="/kr">Home</a></li>
-            <li><a href="/krcontact">Contact</a></li>
-            <li><a href="/krprivacy">Privacy Policy</a></li>
+            
+            <li><a href="https://suprema-ai.github.io//">Home</a></li>
+            <li><a href="https://suprema-ai.github.io//kr/contact">연락처</a></li>
+            <li><a href="https://suprema-ai.github.io//kr/privacy">개인정보 정책</a></li>
+            
             
           </ul>
         </div>
