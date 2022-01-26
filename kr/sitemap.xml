@@ -119,32 +119,6 @@
                 href="https://suprema-ai.github.io/kr/news/contents3/"
                 />
   </url><url>
-    <loc>https://suprema-ai.github.io/kr/about/</loc>
-    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://suprema-ai.github.io/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://suprema-ai.github.io/kr/about/"
-                />
-  </url><url>
-    <loc>https://suprema-ai.github.io/kr/cookie-policy/</loc>
-    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://suprema-ai.github.io/cookie-policy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://suprema-ai.github.io/kr/cookie-policy/"
-                />
-  </url><url>
     <loc>https://suprema-ai.github.io/kr/pages/</loc>
     <lastmod>2018-12-06T09:29:16+10:00</lastmod>
     <xhtml:link
@@ -169,6 +143,32 @@
                 rel="alternate"
                 hreflang="kr"
                 href="https://suprema-ai.github.io/kr/privacy/"
+                />
+  </url><url>
+    <loc>https://suprema-ai.github.io/kr/cookie-policy/</loc>
+    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://suprema-ai.github.io/cookie-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://suprema-ai.github.io/kr/cookie-policy/"
+                />
+  </url><url>
+    <loc>https://suprema-ai.github.io/kr/about/</loc>
+    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://suprema-ai.github.io/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://suprema-ai.github.io/kr/about/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/kr/contact/</loc>
