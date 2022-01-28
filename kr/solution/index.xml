@@ -8,30 +8,25 @@
     <language>kr</language>
     <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://suprema-ai.github.io/kr/solution/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>QFace Core</title>
-      <link>https://suprema-ai.github.io/kr/solution/contents1/</link>
+      <title>바이오인식 솔루션</title>
+      <link>https://suprema-ai.github.io/kr/solution/authentication-solution/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://suprema-ai.github.io/kr/solution/contents1/</guid>
-      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
+      <guid>https://suprema-ai.github.io/kr/solution/authentication-solution/</guid>
+      <description>슈프리마AI의 바이오인식 솔루션에 대하여 알아보세요.
+QFace Core QFace Core는 슈프리마AI의 인공지능 얼굴인식 알고리즘 솔루션입니다.
+얼굴인식 알고리즘 이란? 주어진 기기를 통해 입력된 영상에서 얼굴을 찾는 얼굴 검출 부분과 검출된 얼굴에서 고유의 특성을 뽑아내는 얼굴 특성검출, 이 특성들을 기존에 등록된 특성들과 비교하여 동일인인지 판단하는 얼굴 매칭 부분을 합하여 얼굴인식 알고리즘이라고합니다. 슈프리마AI의 얼굴 인식 솔루션은 추가로 얼굴 검출을 빠르게 도와주는 얼굴 추적, 얼굴 매칭을 도와주는 얼굴 그룹화, 보안성 강화를 위한 위변조 감지 알고리즘, 얼굴에서 나이, 성별, 인종, 표정등을 예측하는 얼굴 특징 예측 알고리즘을 추가하여 보다 다양한 서비스 개발에 도움이 되는 솔루션을 제공합니다.</description>
     </item>
     
     <item>
-      <title>QFace Edge Module</title>
-      <link>https://suprema-ai.github.io/kr/solution/contents2/</link>
+      <title>비젼 AI 솔루션</title>
+      <link>https://suprema-ai.github.io/kr/solution/vision-ai-solution/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
-      <guid>https://suprema-ai.github.io/kr/solution/contents2/</guid>
-      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
-    </item>
-    
-    <item>
-      <title>Solution Contents 3</title>
-      <link>https://suprema-ai.github.io/kr/solution/contents3/</link>
-      <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
-      
-      <guid>https://suprema-ai.github.io/kr/solution/contents3/</guid>
-      <description>하나에 많은 이웃 사람들의 까닭입니다. 어머님, 다 이름과, 소학교 속의 묻힌 별 듯합니다. 비둘기, 별 새겨지는 패, 토끼, 내 보고, 봅니다. 패, 써 아직 것은 가을 둘 거외다. 하나에 하나에 흙으로 경, 내 멀듯이, 하늘에는 까닭이요, 릴케 까닭입니다. 어머니 이름과, 시인의 소녀들의 묻힌 했던 차 어머님, 내린 까닭입니다. 강아지, 시와 무성할 가득 별빛이 노새, 마디씩 속의 별 계십니다. 당신은 하나에 이국 오는 듯합니다. 그리워 소녀들의 많은 이름과, 나의 위에 하나에 이제 했던 까닭입니다.</description>
+      <guid>https://suprema-ai.github.io/kr/solution/vision-ai-solution/</guid>
+      <description>슈프리마에이아이의 비젼 AI 솔루션에 대하여 알아보세요.
+QVision Core QVision Core는 슈프리마AI의 비젼 AI 알고리즘 솔루션입니다.
+비젼 AI란? 내용 준비중</description>
     </item>
     
   </channel>

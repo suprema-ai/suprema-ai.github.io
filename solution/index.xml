@@ -8,36 +8,25 @@
     <language>en</language>
     <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://suprema-ai.github.io/solution/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Solution Contents 1</title>
-      <link>https://suprema-ai.github.io/solution/contents1/</link>
+      <title>Biometric Solution</title>
+      <link>https://suprema-ai.github.io/solution/authentication-solution/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
-      <guid>https://suprema-ai.github.io/solution/contents1/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
+      <guid>https://suprema-ai.github.io/solution/authentication-solution/</guid>
+      <description>Learn about Suprema AI&amp;rsquo;s biometric solution.
+QFace Core QFace Core is Suprema AI&amp;rsquo;s artificial intelligence face recognition algorithm solution.
+What is a face recognition algorithm? By combining the face detection part that finds a face in the image input through a given device, the facial feature detection that extracts unique features from the detected face, and the face matching part that compares these features with the previously registered features to determine whether they are the same person.</description>
     </item>
     
     <item>
-      <title>Solution Contents 2</title>
-      <link>https://suprema-ai.github.io/solution/contents2/</link>
+      <title>Vision AI Solution</title>
+      <link>https://suprema-ai.github.io/solution/vision-ai-solution/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
-      <guid>https://suprema-ai.github.io/solution/contents2/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
-    </item>
-    
-    <item>
-      <title>Solution Contents 3</title>
-      <link>https://suprema-ai.github.io/solution/contents3/</link>
-      <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
-      
-      <guid>https://suprema-ai.github.io/solution/contents3/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
+      <guid>https://suprema-ai.github.io/solution/vision-ai-solution/</guid>
+      <description>Learn about Suprema AI&amp;rsquo;s vision AI solution.
+QVision Core QVision Core is Suprema AI&amp;rsquo;s vision AI algorithm solution.
+What is Vision AI? Content in preparation</description>
     </item>
     
   </channel>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Suprema AI</title>
+    <link>https://suprema-ai.github.io/technology/</link>
+    <description>Recent content in Technology on Suprema AI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Dec 2018 09:29:16 +1000</lastBuildDate><atom:link href="https://suprema-ai.github.io/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Core Technology</title>
+      <link>https://suprema-ai.github.io/technology/ai-core/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>https://suprema-ai.github.io/technology/ai-core/</guid>
+      <description>Content in preparation</description>
+    </item>
+    
+    <item>
+      <title>AI Edge Technology</title>
+      <link>https://suprema-ai.github.io/technology/ai-edge/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>https://suprema-ai.github.io/technology/ai-edge/</guid>
+      <description>Content in preparation</description>
+    </item>
+    
+  </channel>
+</rss>

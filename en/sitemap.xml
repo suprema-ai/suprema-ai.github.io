@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://suprema-ai.github.io/technology/ai-core/</loc>
+    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://suprema-ai.github.io/kr/technology/ai-core/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://suprema-ai.github.io/technology/ai-core/"
+                />
+  </url><url>
+    <loc>https://suprema-ai.github.io/solution/authentication-solution/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://suprema-ai.github.io/kr/solution/authentication-solution/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://suprema-ai.github.io/solution/authentication-solution/"
+                />
+  </url><url>
     <loc>https://suprema-ai.github.io/work/contents1/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
     <xhtml:link
@@ -28,30 +54,30 @@
                 href="https://suprema-ai.github.io/news/contents1/"
                 />
   </url><url>
-    <loc>https://suprema-ai.github.io/solution/contents1/</loc>
-    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+    <loc>https://suprema-ai.github.io/technology/ai-edge/</loc>
+    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="https://suprema-ai.github.io/kr/solution/contents1/"
+                href="https://suprema-ai.github.io/kr/technology/ai-edge/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://suprema-ai.github.io/solution/contents1/"
+                href="https://suprema-ai.github.io/technology/ai-edge/"
                 />
   </url><url>
-    <loc>https://suprema-ai.github.io/solution/contents2/</loc>
+    <loc>https://suprema-ai.github.io/solution/vision-ai-solution/</loc>
     <lastmod>2018-11-28T15:15:34+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="https://suprema-ai.github.io/kr/solution/contents2/"
+                href="https://suprema-ai.github.io/kr/solution/vision-ai-solution/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://suprema-ai.github.io/solution/contents2/"
+                href="https://suprema-ai.github.io/solution/vision-ai-solution/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/work/contents2/</loc>
@@ -78,19 +104,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://suprema-ai.github.io/news/contents2/"
-                />
-  </url><url>
-    <loc>https://suprema-ai.github.io/solution/contents3/</loc>
-    <lastmod>2018-11-28T15:15:26+10:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://suprema-ai.github.io/kr/solution/contents3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://suprema-ai.github.io/solution/contents3/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/work/contents3/</loc>
@@ -169,6 +182,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://suprema-ai.github.io/privacy/"
+                />
+  </url><url>
+    <loc>https://suprema-ai.github.io/technology/</loc>
+    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://suprema-ai.github.io/kr/technology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://suprema-ai.github.io/technology/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/contact/</loc>
