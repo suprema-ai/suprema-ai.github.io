@@ -8,12 +8,12 @@
     <language>en</language>
     <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://suprema-ai.github.io/solution/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Biometric Solution</title>
+      <title>Biometric AI Solution</title>
       <link>https://suprema-ai.github.io/solution/authentication-solution/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://suprema-ai.github.io/solution/authentication-solution/</guid>
-      <description>Learn about Suprema AI&amp;rsquo;s biometric solution.
+      <description>Learn about Suprema AI&amp;rsquo;s biometric AI solution.
 QFace Core QFace Core is Suprema AI&amp;rsquo;s artificial intelligence face recognition algorithm solution.
 What is a face recognition algorithm? By combining the face detection part that finds a face in the image input through a given device, the facial feature detection that extracts unique features from the detected face, and the face matching part that compares these features with the previously registered features to determine whether they are the same person.</description>
     </item>
