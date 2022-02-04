@@ -162,14 +162,14 @@
       if (window.location.pathname.substring(0, 4) == '/kr/')
         path = window.location.origin + window.location.pathname.slice(3);
       else
-        path = window.location.origin + window.location.pathname;
+        path = window.location.origin + window.location.pathname.slice(1);
 
     }
     else {
       if (window.location.pathname.substring(0, 4) == '/kr/')
-        path = window.location.origin + window.location.pathname;
+        path = window.location.origin + window.location.pathname.slice(1);
       else
-        path = window.location.origin + '/kr/' + window.location.pathname;
+        path = window.location.origin + '/kr/' + window.location.pathname.slice(1);
     }
     window.location.replace(path);
 
