@@ -14,8 +14,11 @@
       
       <guid>https://suprema-ai.github.io/solution/authentication-solution/</guid>
       <description>Learn about Suprema AI&amp;rsquo;s biometric AI solution.
-QFace CoreQFace Edge ModuleQFace Core QFace Core is Suprema AI&amp;rsquo;s artificial intelligence face recognition algorithm solution.
-What is a face recognition algorithm? By combining the face detection part that finds a face in the image input through a given device, the facial feature detection that extracts unique features from the detected face, and the face matching part that compares these features with the previously registered features to determine whether they are the same person.</description>
+Q-Face EngineQ-Face ModuleQFace Engine QFace Engine is Suprema AI&amp;rsquo;s artificial intelligence face recognition algorithm solution.
+Advantages of QFace Engine   AI algorithm based on deep learning Retains large-capacity face data in Korea and abroad (25 countries, 10,000 people, 50M Images)
+Accurate data labeling with its own superior cleansing technology
+Deep learning-based face recognition solution using collected data
+  Fast and accurate recognition performance Excellent detection/matching performance</description>
     </item>
     
     <item>
@@ -25,8 +28,7 @@ What is a face recognition algorithm? By combining the face detection part that 
       
       <guid>https://suprema-ai.github.io/solution/vision-ai-solution/</guid>
       <description>Learn about Suprema AI&amp;rsquo;s vision AI solution.
-QVision Core QVision Core is Suprema AI&amp;rsquo;s vision AI algorithm solution.
-What is Vision AI? Content in preparation</description>
+Q-Vision Engine QVision Engine is Suprema AI&amp;rsquo;s vision AI algorithm solution. Provides video analysis algorithms for intelligent CCTV.</description>
     </item>
     
   </channel>
