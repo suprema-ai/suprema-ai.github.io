@@ -11937,10 +11937,10 @@ h2.text-primary.text-capitalize {
   padding: 20px;
 }
 
-.company-overview-who-we-are code{
+.company-overview-who-we-are code{ 
   color: #9F2842;
   font-family: "Montserrat", "Noto Sans KR", "Helvetica Neue", Arial, sans-serif, -apple-system;
-  font-weight: 500;  
+  font-weight: 499;  
 }
 
 
