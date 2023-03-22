@@ -17,20 +17,6 @@
     </item>
     
     <item>
-      <title>Biometric AI Solution</title>
-      <link>https://suprema-ai.github.io/solution/authentication-solution/</link>
-      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
-      
-      <guid>https://suprema-ai.github.io/solution/authentication-solution/</guid>
-      <description>Learn about Suprema AI&amp;rsquo;s biometric AI solution.
-Q-Face EngineQ-Face ModuleQFace Engine QFace Engine is Suprema AI&amp;rsquo;s artificial intelligence face recognition algorithm solution.
-Advantages of QFace Engine AI algorithm based on deep learning Retains large-capacity face data in Korea and abroad (25 countries, 10,000 people, 50M Images)
-Accurate data labeling with its own superior cleansing technology
-Deep learning-based face recognition solution using collected data
-Fast and accurate recognition performance Excellent detection/matching performance</description>
-    </item>
-    
-    <item>
       <title>Contents 1</title>
       <link>https://suprema-ai.github.io/work/contents1/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
@@ -52,6 +38,16 @@ Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque cla
     </item>
     
     <item>
+      <title>Q-Face Series</title>
+      <link>https://suprema-ai.github.io/solution/q-face-series/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://suprema-ai.github.io/solution/q-face-series/</guid>
+      <description>Q-Face Series Q-Face OEM module series are stand-alone facial recognition systems ideal for Edge AI embedded system applications where the most trusted touchless biometric security is required. Specifically, the modules are designed for manufacturers and system integrators seeking safe, reliable, and best-performing facial recognition systems that are environment-friendly, and easy-to-integrate, with flexible form factor capabilities.
+Sepecification Applications Biometric access control for highly secured areas</description>
+    </item>
+    
+    <item>
       <title>AI Edge Technology</title>
       <link>https://suprema-ai.github.io/technology/ai-edge/</link>
       <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
@@ -61,13 +57,12 @@ Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque cla
     </item>
     
     <item>
-      <title>Vision AI Solution</title>
-      <link>https://suprema-ai.github.io/solution/vision-ai-solution/</link>
+      <title>Q-Vision</title>
+      <link>https://suprema-ai.github.io/solution/q-vision/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
-      <guid>https://suprema-ai.github.io/solution/vision-ai-solution/</guid>
-      <description>Learn about Suprema AI&amp;rsquo;s vision AI solution.
-Q-Vision Engine QVision Engine is Suprema AI&amp;rsquo;s vision AI algorithm solution. Provides video analysis algorithms for intelligent CCTV.</description>
+      <guid>https://suprema-ai.github.io/solution/q-vision/</guid>
+      <description>Q-Vision TAILORED SOLUTION TO YOUR VISUAL DATA APPLICATIONS Q-Vision Engine is AI powered video analytic and face recognition solution for various domains such as intelligent CCTVs and AI Edge Cameras. By deep learning and convolutional neural networks to process video frames and extract features that distinguish different objects, Q-Vision Engine is designed to overcome the challenges of reliable data extraction and analysis in various video environments. Full SDK and API support will enhance seamless integration to your existing video security systems.</description>
     </item>
     
     <item>
@@ -89,6 +84,18 @@ Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati d
       <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
 Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
 Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
+    </item>
+    
+    <item>
+      <title>Q-Platform</title>
+      <link>https://suprema-ai.github.io/solution/q-platform/</link>
+      <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
+      
+      <guid>https://suprema-ai.github.io/solution/q-platform/</guid>
+      <description>Q-Platform A standardized optimization platform for the development of Edge AI algorithm. It provides high performance on Edge devices by optimizing the algorithm for low performance CPU with little loss of accuracy.
+Core Competency of Q-Platform The best performing hardware platform build Possessing over 20 Peta-FLOPS and 40 Peta-OPS deep learning hardware platform
+AI development software platform for the faster development Mass DB management and S/W tool development
+AI automation pipeline build Automation tool development for DB collection, cleansing, model learning and evaluation processes</description>
     </item>
     
     <item>

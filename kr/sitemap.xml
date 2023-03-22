@@ -41,17 +41,17 @@
                 href="https://suprema-ai.github.io/kr/news/contents1/"
                 />
   </url><url>
-    <loc>https://suprema-ai.github.io/kr/solution/authentication-solution/</loc>
+    <loc>https://suprema-ai.github.io/kr/solution/q-face-series/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://suprema-ai.github.io/solution/authentication-solution/"
+                href="https://suprema-ai.github.io/solution/q-face-series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="https://suprema-ai.github.io/kr/solution/authentication-solution/"
+                href="https://suprema-ai.github.io/kr/solution/q-face-series/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/kr/technology/ai-edge/</loc>
@@ -67,17 +67,17 @@
                 href="https://suprema-ai.github.io/kr/technology/ai-edge/"
                 />
   </url><url>
-    <loc>https://suprema-ai.github.io/kr/solution/vision-ai-solution/</loc>
+    <loc>https://suprema-ai.github.io/kr/solution/q-vision/</loc>
     <lastmod>2018-11-28T15:15:34+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://suprema-ai.github.io/solution/vision-ai-solution/"
+                href="https://suprema-ai.github.io/solution/q-vision/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="https://suprema-ai.github.io/kr/solution/vision-ai-solution/"
+                href="https://suprema-ai.github.io/kr/solution/q-vision/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/kr/work/contents2/</loc>
@@ -104,6 +104,19 @@
                 rel="alternate"
                 hreflang="kr"
                 href="https://suprema-ai.github.io/kr/news/contents2/"
+                />
+  </url><url>
+    <loc>https://suprema-ai.github.io/kr/solution/q-platform/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://suprema-ai.github.io/solution/q-platform/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://suprema-ai.github.io/kr/solution/q-platform/"
                 />
   </url><url>
     <loc>https://suprema-ai.github.io/kr/work/contents3/</loc>
