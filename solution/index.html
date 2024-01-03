@@ -123,12 +123,12 @@
       if (window.location.pathname.substring(0, 4) == '/kr/')
         path = window.location.origin + window.location.pathname.slice(3);
       else
-        path = window.location.origin + window.location.pathname.slice(1);
+        path = window.location.origin + window.location.pathname.slice(0);
 
     }
     else {
       if (window.location.pathname.substring(0, 4) == '/kr/')
-        path = window.location.origin + window.location.pathname.slice(1);
+        path = window.location.origin + window.location.pathname.slice(0);
       else
         path = window.location.origin + '/kr/' + window.location.pathname.slice(1);
     }
@@ -187,7 +187,7 @@
     <h2 class="service-title">
       <a href="https://suprema-ai.github.io/solution/q-face-series/">Q-Face Series</a>
     </h2>
-    <p>AI Face Recogniton Solution</p>
+    <p>AI Facial Authentication Solution</p>
     
     <div>
       <a class="button" href="https://suprema-ai.github.io/solution/q-face-series/">Read More</a></button> 

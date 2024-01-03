@@ -123,12 +123,12 @@
       if (window.location.pathname.substring(0, 4) == '/kr/')
         path = window.location.origin + window.location.pathname.slice(3);
       else
-        path = window.location.origin + window.location.pathname.slice(1);
+        path = window.location.origin + window.location.pathname.slice(0);
 
     }
     else {
       if (window.location.pathname.substring(0, 4) == '/kr/')
-        path = window.location.origin + window.location.pathname.slice(1);
+        path = window.location.origin + window.location.pathname.slice(0);
       else
         path = window.location.origin + '/kr/' + window.location.pathname.slice(1);
     }
@@ -236,8 +236,8 @@
     </div>
     <div class=q-face-features-col>
         <p>
-            <strong>Fast and Smart AI Optimized for Facial Recognition Access</strong><br>
-            NPU-optimized AI algorithm offers the highest standards in facial recognition accuracy and speed
+            <strong>Fast and Smart AI Optimized for Facial Authentication Access</strong><br>
+            NPU-optimized AI algorithm offers the highest standards in facial authentication accuracy and speed
         </p>
     </div>
 </div>
@@ -315,8 +315,8 @@
     </div>
     <div class=q-face-features-col>
         <p>
-            <strong>Fast and Smart AI Optimized for Facial Recognition Access</strong><br>
-            NPU-optimized AI algorithm offers the highest standards in facial recognition accuracy and speed
+            <strong>Fast and Smart AI Optimized for Facial Authentication Access</strong><br>
+            NPU-optimized AI algorithm offers the highest standards in facial authentication accuracy and speed
         </p>
     </div>
 </div>

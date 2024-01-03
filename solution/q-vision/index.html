@@ -123,12 +123,12 @@
       if (window.location.pathname.substring(0, 4) == '/kr/')
         path = window.location.origin + window.location.pathname.slice(3);
       else
-        path = window.location.origin + window.location.pathname.slice(1);
+        path = window.location.origin + window.location.pathname.slice(0);
 
     }
     else {
       if (window.location.pathname.substring(0, 4) == '/kr/')
-        path = window.location.origin + window.location.pathname.slice(1);
+        path = window.location.origin + window.location.pathname.slice(0);
       else
         path = window.location.origin + '/kr/' + window.location.pathname.slice(1);
     }
@@ -181,12 +181,12 @@
       <div class="service service-single">
         <div class="content"><h1 id="q-vision">Q-Vision</h1>
 <h2 id="tailored-solution-to-your-visual-data-applications">TAILORED SOLUTION TO YOUR VISUAL DATA APPLICATIONS</h2>
-<p>Q-Vision Engine is AI powered video analytic and face recognition solution for various domains such as intelligent CCTVs and AI Edge Cameras.
+<p>Q-Vision Engine is AI powered video analytic and facial authentication solution for various domains such as intelligent CCTVs and AI Edge Cameras.
 By deep learning and convolutional neural networks to process video frames and extract features that distinguish different objects, Q-Vision Engine is designed to overcome the challenges of reliable data extraction and analysis in various video environments. Full SDK and API support will enhance seamless integration to your existing video security systems.</p>
 <p><img src="/images/suprema-ai-q-vision-features.svg" alt="Q-Vision"></p>
 <h1 id="q-vision-engine">Q-Vision Engine</h1>
 <ul>
-<li>Video analytics and Facial recognition solution with detect and classifying objects<br>
+<li>Video analytics and facial authentication solution with detect and classifying objects<br>
 in real-time for surveillance and monitoring</li>
 </ul>
 <p><img src="/images/suprema-ai-q-vision-engine.svg" alt="Q-Vision Engine"></p>

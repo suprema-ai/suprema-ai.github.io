@@ -134,12 +134,12 @@
       if (window.location.pathname.substring(0, 4) == '/kr/')
         path = window.location.origin + window.location.pathname.slice(3);
       else
-        path = window.location.origin + window.location.pathname.slice(1);
+        path = window.location.origin + window.location.pathname.slice(0);
 
     }
     else {
       if (window.location.pathname.substring(0, 4) == '/kr/')
-        path = window.location.origin + window.location.pathname.slice(1);
+        path = window.location.origin + window.location.pathname.slice(0);
       else
         path = window.location.origin + '/kr/' + window.location.pathname.slice(1);
     }
@@ -199,7 +199,7 @@
         <div class="first-work">
           <h2 class="text-primary text-capitalize">AI Core Technology</h2>
           <p><h2 id="discover-suprema-ais-core-technology">Discover Suprema AI&rsquo;s Core technology</h2>
-<p>AI Face Recognition Algorithm<br>
+<p>AI Facial Authentication Algorithm<br>
 AI Vision Algorithm<br>
 AI algorithm optimization and lightweight technology</p>
 </p>
@@ -218,7 +218,7 @@ AI algorithm optimization and lightweight technology</p>
         <div class="second-work">
           <h2 class="text-secondary text-capitalize">AI Edge techology</h2>
           <p><h2 id="discover-suprema-ais-edge-technology">Discover Suprema AI&rsquo;s Edge technology</h2>
-<p>AI Face Recognition Edge Module<br>
+<p>AI Facial Authentication Edge Module<br>
 AI on Edge optimization technology</p>
 </p>
           <a class="button" href="/about">Learn More</a>
@@ -229,11 +229,6 @@ AI on Edge optimization technology</p>
 </div>
 
 
-<div class="container">
-<section class="isc-west-img">
-  <img src="/images/suprema-ai-isc-west-2023.svg" alt=""/>
-</section>
-</div>
 
 
 
